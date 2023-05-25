@@ -116,7 +116,10 @@ const handChecker = (hand) => {
     return pair &&threeOfAKind
 }
 
+console.log(handChecker(hand1))
 console.log(handChecker(hand2))
+console.log(handChecker(hand3))
+console.log(handChecker(hand4))
 
 
 //I keep getting an error when running jest on my computer and it keeps running all my files off my github when I try to run my specific test. I want to find a solution for this issue with one of the instructors. 
